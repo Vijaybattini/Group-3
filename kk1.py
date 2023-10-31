@@ -2,7 +2,7 @@ import pickle
 import numpy as np
 import streamlit as st
 import requests
-import NearestNeighbors
+import nearest_neighbors.lib.python.nearest_neighbors as nearest_neighbors
 st.set_page_config(layout="wide")
 def recommend(movie):
     l=[]
