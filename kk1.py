@@ -2,8 +2,6 @@ import pickle
 import numpy as np
 import streamlit as st
 import requests
-pip install sklearn
-
 
 from sklearn.neighbors import NearestNeighbors
 st.set_page_config(layout="wide")
